@@ -1,6 +1,11 @@
-tipo_jogo = 0
+"Esse jogo n peças são inicialmente dispostas numa mesa ou tabuleiro. 2 jogadores jogam alternadamente, retirando pelo menos 1 e no mácimo m peças cada um. Quem tirar as últimas peças possíveis ganha o jogo."
+"Uma boa estratégia é deixar sempre múltiplos de (m+1) peças ao jogador oponente."
 
-def computador_escolhe_jogada(n,m):
+"Escrever um programa que permita uma vítima jogar o NIM contra o computador. O computador, é claro, deverá seguir a estratégia vencedora."
+
+tipo_jogo = 0
+"função que corresponde à próxima jogada do computador"
+def computador_escolhe_jogada(n,m): 
     print('Computador começa!')
     if n <= m:
         return n
@@ -9,7 +14,8 @@ def computador_escolhe_jogada(n,m):
         if quantia > 0:
             return quantia
         return m
-
+    
+"função que solicita ao jogador que informe sua jogada e verifica se o valor informado é válido"
 def usuario_escolhe_jogada(n,m):
     print('sua vez!\n')
     jogada = 0
@@ -19,6 +25,7 @@ def usuario_escolhe_jogada(n,m):
             jogada = 0
     return jogada
 
+"função que solicita ao usuário que informe os valores de n e m e inicia o jogo, alternando entre jogadas do computador e do usuário"
 def partida():
     print('')
 
@@ -48,6 +55,7 @@ def partida():
         print('Computador ganhou!')
         return 0
 
+"função que realiza 3 partidas seguidas do jogo e ao final mostra o placar dessas 3 partidas e indica o vencedor"
 def campeonato():
     usuario = 0
     computador = 0
