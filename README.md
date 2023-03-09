@@ -2,9 +2,9 @@
 Aulas e exercícios para aprendizado de Python realizado pela USP/ Classes and exercises for learning Python held by USP
 
 # Sobre
-Exercícios e anotações desenvolvidas ao longo do curso Introdução à Ciência da Computação com Python Parte 1 da Universidade de São Paulo na plataforma Coursera.
+Exercises and notes developed during the course Introduction to Computer Science with Python Part 1 from the University of São Paulo on the Coursera platform.
 
 📌Lista de Projetos:
 
 🎮 **jogo_nim.py**
-Este jogo consiste em **n** peças inicialmente dispostas numa mesa ou tabuleiro. Dois jogadores jogam  alternadamente, retirando pelo menos 1 e no máximo **m** peças cada um. Quem tirar as últimas peças possíveis ganha o jogo. É possível jogar partidas individuais (**opção 1**) ou campeonatos (**opção 2**).
+This game consists of **n** pieces initially arranged on a table or board. Two players play alternately, taking off at least 1 and at most **m** pieces each. Whoever removes the last possible pieces wins the game. It is possible to play single games (**option 1**) or championships (**option 2**).
